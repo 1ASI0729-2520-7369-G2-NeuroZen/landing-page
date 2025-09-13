@@ -1,0 +1,114 @@
+:root {
+  --brand-green: #10b981;
+  --brand-indigo: #6366f1;
+  --ink: #0f172a;
+  --muted: #475569;
+}
+
+html,
+body {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, Helvetica, Arial;
+  color: var(--ink);
+}
+
+.bg-soft {
+  background: linear-gradient(180deg,
+      #f8fafc 0%,
+      #ffffff 50%,
+      #f8fafc 100%);
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.shadow-soft {
+  box-shadow: 0 10px 25px rgba(2, 6, 23, 0.06);
+}
+
+.btn-pill {
+  border-radius: 1rem;
+}
+
+.blob {
+  position: absolute;
+  filter: blur(60px);
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.blob-1 {
+  width: 18rem;
+  height: 18rem;
+  background: #c7d2fe;
+  left: 50%;
+  top: -8%;
+  transform: translateX(-50%);
+  border-radius: 999px;
+}
+
+.blob-2 {
+  width: 16rem;
+  height: 16rem;
+  background: #a7f3d0;
+  right: 10%;
+  top: 30%;
+  border-radius: 999px;
+}
+
+.phone {
+  aspect-ratio: 9/19;
+  width: 18rem;
+  border-radius: 2.5rem;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  box-shadow: 0 25px 50px rgba(2, 6, 23, 0.12);
+}
+
+.phone-inner {
+  position: relative;
+  margin: 0.5rem;
+  border-radius: 2rem;
+  background: linear-gradient(180deg, #fff, #f8fafc);
+  padding: 1rem;
+}
+
+.dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: #e2e8f0;
+  border-radius: 999px;
+}
+
+.pill {
+  height: 0.5rem;
+  width: 4rem;
+  background: #e2e8f0;
+  border-radius: 999px;
+}
+
+.icon-bubble {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 0.75rem;
+  background: #f1f5f9;
+  color: #334155;
+}
+
+.card-popular {
+  border: 2px solid var(--brand-green);
+  box-shadow: 0 16px 40px rgba(16, 185, 129, 0.15);
+}
+
+.text-muted-600 {
+  color: var(--muted);
+}
